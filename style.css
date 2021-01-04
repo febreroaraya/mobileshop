@@ -17,6 +17,10 @@ section
     align-items: center;
     background: #fff;
 }
+.button {
+    border-radius: 40px;
+    text-transform: uppercase;
+}
 header
 {
     position: absolute;

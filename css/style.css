@@ -163,3 +163,29 @@ header ul li a
     background: #017143;
     clip-path: circle(600px at right 800px);
 }
+
+footer {
+    border-top: 1px solid #e9ecef ;
+    padding-top: 50px;
+   
+  }
+  .brand-tagline {
+    margin-top: 8px;
+    color:  #adb5bd;
+    font-weight: 300;
+  }
+
+  .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+
+  }
+  span {
+    color:  #adb5bd;
+    font-weight: 300;
+  }
+  .copyrights {
+    margin: 50px 0;
+    font-weight: 300;
+    color: #adb5bd;
+  }

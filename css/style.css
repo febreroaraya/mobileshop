@@ -10,8 +10,9 @@ section
 {
     position: relative;
     width: 100%;
-    min-height: 100vh;
-    padding: 100px;
+    min-height: auto;
+    padding-bottom: 80px;
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,6 +30,7 @@ header
     width: 100%;
     padding: 20px 100px;
     display: flex;
+    height: 120px;
     justify-content: space-between;
     align-items: center;
 }

@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/text.css">
     <link rel="stylesheet" href="css/list.css">
     <link rel="stylesheet" href="css/margin.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
     <section>
@@ -19,13 +22,28 @@
         <a href="#"><img src="images/logo.png" class="logo"></a>
         <ul>
             <li><a href="starbucks.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
+            <div class="dropdown">
+                <li><a class="dropbtn" href="#">Menu</a></li>
+                <div class="dropdown-content">
+                    <a href="menu.html">Kopi</a>
+                    <a href="#">Teh</a>
+                    <a href="#">Milkshake</a>
+                    </div>
+            </div>
             <li><a href="news.html">Whats New</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="aboutus.html">About Us</a></li>
         </ul>
     </header>
-    <article class="articleBlock" >
+    <!-- <div class="card" >
+        <img src="images/10 - Hot Espresso Macchiato_tcm33-46290_w1024_n.jpg" alt="Avatar" >
+        <div class="container">
+          <h4><b>John Doe</b></h4> 
+          <p>Architect & Engineer</p> 
+        </div>
+      </div> -->
+     
+    <!-- <article class="articleBlock" >
         <h1 class="articleBlock__header" >Espresso Beverages</h1>
             <h2 class="articleBlock__summaryHeadline" >Handcrafted lattes, cappuccinos, macchiatos and more.</h2>
             <div >
@@ -36,13 +54,100 @@
                 Did you know there are over 87,000 different drink combinations at Starbucks. Why not try a syrup in your morning latte, or try soy in your mocha? A drizzle of buttery caramel on the top of your cappuccino? The possibilities are endless.... discover your favorite.
             </div>
     </div>   
-</article>
+</article> -->
 
 </section>
+<section>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="card" >
+                <img src="images/10 - Hot Espresso Macchiato_tcm33-46290_w1024_n.jpg" alt="Avatar" >
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+        </div>
+        <div class="grid-item">
+            <div class="card" >
+                <img src="images/10 - Hot Espresso Macchiato_tcm33-46290_w1024_n.jpg" alt="Avatar" >
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+        </div>
+        <div class="grid-item">
+            <div class="card" >
+                <img src="images/10 - Hot Espresso Macchiato_tcm33-46290_w1024_n.jpg" alt="Avatar" >
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+        </div>  
+        <div class="grid-item">
+            <div class="card" >
+                <img src="images/10 - Hot Espresso Macchiato_tcm33-46290_w1024_n.jpg" alt="Avatar" >
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+        </div>
+        <div class="grid-item">
+            <div class="card" >
+                <img src="images/10 - Hot Espresso Macchiato_tcm33-46290_w1024_n.jpg" alt="Avatar" >
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+        </div>
+        <div class="grid-item">
+            <div class="card" >
+                <img src="images/10 - Hot Espresso Macchiato_tcm33-46290_w1024_n.jpg" alt="Avatar" >
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+        </div>  
+        <div class="grid-item">
+            <div class="card" >
+                <img src="images/10 - Hot Espresso Macchiato_tcm33-46290_w1024_n.jpg" alt="Avatar" >
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+        </div>
+        <div class="grid-item">
+            <div class="card" >
+                <img src="images/10 - Hot Espresso Macchiato_tcm33-46290_w1024_n.jpg" alt="Avatar" >
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+        </div>
+        <div class="grid-item">
+            <div class="card" >
+                <img src="images/10 - Hot Espresso Macchiato_tcm33-46290_w1024_n.jpg" alt="Avatar" >
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+        </div>  
+      </div>
+</section>
+
+
     
 
-    <div class="column size12of12" typeof="Region" resource="Main">
-        <!-- BEGIN: Main Region Content -->
+    <!-- <div class="column size12of12" typeof="Region" resource="Main">
+        
                <div class="grid">
                         <div class="column sm_size4of12">
                             <article class="sectionBlock" >
@@ -225,14 +330,54 @@
         </article>
                         </div>
                 </div>
-    
-    
-        <!-- END: Main Region Content -->
-    </div>
+
+    </div> -->
     <!-- END: Main Region -->
             </div>
         </div>
         
     </main>
+
+     
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-auto" style="width: 350px;">
+                    <h2 ><span>Starbucks</span></h2>
+                    <p class="brand-tagline">We kaboom your beauty holiday instantly and memorable.</p>
+                </div>
+                <div class="col-auto mr-5">
+                    <h6 class="mt-2">For Beinners</h6>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a class="" href="">New Account</a></li>
+                        <li class="list-group-item"><a class="" href="">Start Booking a Room</a></li>
+                        <li class="list-group-item"><a class="" href="">Use Payments</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 mr-5">
+                    <h6 class="mt-2">Explore Us</h6>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a  href="/careers">Our Careers</a></li>
+                        <li class="list-group-item"><a  href="/privacy">Privacy</a></li>
+                        <li class="list-group-item"><a  href="/terms">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h6 class="mt-2">Connect Us</h6>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="mailto:support@staycation.id" >support@starbucks.id</a></li>
+                        <li class="list-group-item"><a href="tel:+622122081996" >021 - 2208 - 1996</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center copyrights">Copyright 2019 • All rights reserved • Starbucks</div>
+            </div>
+        </div>
+        </footer>
+ 
+    
+    <script type="text/javascript" src="js/style.js"></script>
 </body>
 </html>

@@ -15,6 +15,11 @@
     margin-left: -15px;
   }
 
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
 .workingspace {
     margin-top: 120px;
     text-align: center;

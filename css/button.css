@@ -93,6 +93,7 @@ input[type="month"] {
     color: #fff;
     background-color: #28a745;
     border-color: #28a745;
+
   }
   
   .btn-success:hover {
@@ -121,5 +122,29 @@ input[type="month"] {
   .btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
   .show > .btn-success.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+  }
+  
+
+  a:hover {
+    color: #7c7a7a;
+    text-decoration: underline;
+  }
+  a {
+    color: #424242;
+    text-decoration: none;
+  }
+  
+  a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:not([href]):not([tabindex]):focus {
+    outline: 0;
   }
   
